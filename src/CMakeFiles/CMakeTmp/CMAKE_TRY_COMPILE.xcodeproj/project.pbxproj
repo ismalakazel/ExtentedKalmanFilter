@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A508AE2193594094A7AE1BB2 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2B50BC84567942D49AFDA344 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				58CEF42CA2AA44398CF68D36 /* CMake Rules */,
+			);
+			dependencies = (
+				5A9370B53FA34E71A09B7934 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		06B18394377948E788493C6E /* /usr/local/Cellar/cmake/3.8.1/share/cmake/Modules/CMakeCCompilerABI.c */ = {isa = PBXBuildFile; fileRef = 247C7487025C4ECAB29B77BF /* /usr/local/Cellar/cmake/3.8.1/share/cmake/Modules/CMakeCCompilerABI.c */; };
+		1FAFE5AD079847768C577504 /* /Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 46ECDF0E47B346D5A2A1F0BE /* /Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		50BCFA542C1C44DE82D2683F /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		94AFD138D8B44277837D9447 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		ACA3F0EE3F44432F8A85A00D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		C69A47E1A8EC4D899EDA5AB6 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		CFDAE4563EFF4104BF257232 = {
+			isa = PBXBuildStyle;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		A6C9AC3E06894555B069EEF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC9AD999C6254238903DB15A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76FA04539FAC479E947E8D60;
+			remoteInfo = cmTC_ec981;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		247C7487025C4ECAB29B77BF /* /usr/local/Cellar/cmake/3.8.1/share/cmake/Modules/CMakeCCompilerABI.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = CMakeCCompilerABI.c; path = ../../../../../../../../../../../usr/local/Cellar/cmake/3.8.1/share/cmake/Modules/CMakeCCompilerABI.c; sourceTree = SOURCE_ROOT; };
+		46ECDF0E47B346D5A2A1F0BE /* /Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4CB97677A20B42EE9DD6B6D2 /* cmTC_ec981 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = cmTC_ec981; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDF91A158A54E16B5010F10 /* /Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		36DE8169DB644E309A4D5287 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CB97677A20B42EE9DD6B6D2 /* cmTC_ec981 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BBEE579F5404B05B249922F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A25C4B2F434149BB801E8592 /* cmTC_ec981 */,
+				61BBFF727EB2487C8A9B12E2 /* ALL_BUILD */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		52E554F25DF44A67B9B5D2C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		61BBFF727EB2487C8A9B12E2 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				6A0A21CE447B4691AC72CD7B /* CMake Rules */,
+				BCDF91A158A54E16B5010F10 /* /Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		6A0A21CE447B4691AC72CD7B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7263BB02D4694D9FB049E1DF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				247C7487025C4ECAB29B77BF /* /usr/local/Cellar/cmake/3.8.1/share/cmake/Modules/CMakeCCompilerABI.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A25C4B2F434149BB801E8592 /* cmTC_ec981 */ = {
+			isa = PBXGroup;
+			children = (
+				7263BB02D4694D9FB049E1DF /* Source Files */,
+				46ECDF0E47B346D5A2A1F0BE /* /Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp/CMakeLists.txt */,
+			);
+			name = cmTC_ec981;
+			sourceTree = "<group>";
+		};
+		F4DC4535521B47B0B38B53FE = {
+			isa = PBXGroup;
+			children = (
+				4BBEE579F5404B05B249922F /* Sources */,
+				52E554F25DF44A67B9B5D2C6 /* Resources */,
+				36DE8169DB644E309A4D5287 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76FA04539FAC479E947E8D60 /* cmTC_ec981 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBF528B9DD444B682296C68 /* Build configuration list for PBXNativeTarget "cmTC_ec981" */;
+			buildPhases = (
+				968388A35B2D4366B97C7D44 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cmTC_ec981;
+			productName = cmTC_ec981;
+			productReference = 4CB97677A20B42EE9DD6B6D2 /* cmTC_ec981 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC9AD999C6254238903DB15A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0910;
+			};
+			buildConfigurationList = ADDF63DA63D94F3998A2FB17 /* Build configuration list for PBXProject "CMAKE_TRY_COMPILE" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				50BCFA542C1C44DE82D2683F /* Debug */,
+				ACA3F0EE3F44432F8A85A00D /* Release */,
+				94AFD138D8B44277837D9447 /* MinSizeRel */,
+				C69A47E1A8EC4D899EDA5AB6 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F4DC4535521B47B0B38B53FE;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				A508AE2193594094A7AE1BB2 /* ALL_BUILD */,
+				76FA04539FAC479E947E8D60 /* cmTC_ec981 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58CEF42CA2AA44398CF68D36 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp -f /Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A3BAFEFAA6C446BFA6A69A5D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		968388A35B2D4366B97C7D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B18394377948E788493C6E /* /usr/local/Cellar/cmake/3.8.1/share/cmake/Modules/CMakeCCompilerABI.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A9370B53FA34E71A09B7934 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76FA04539FAC479E947E8D60 /* cmTC_ec981 */;
+			targetProxy = A6C9AC3E06894555B069EEF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F5090836BFE42EC840496FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SYMROOT = "/Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp/build";
+			};
+			name = Release;
+		};
+		4EA0899BBDCE4CCFBC8A1F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SYMROOT = "/Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp/build";
+			};
+			name = Debug;
+		};
+		5F7B62FE3F73473C9BAA9980 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "      -DNDEBUG  ";
+				OTHER_LDFLAGS = " -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cmTC_ec981;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6379E05478494607A9592973 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SYMROOT = "/Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp/build";
+			};
+			name = RelWithDebInfo;
+		};
+		6B70F6CA473B43DA8D2E141E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8FD3430BC3C048B0A4B50C65 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		92D1E0A346BE4150B1917603 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "         -DNDEBUG  ";
+				OTHER_LDFLAGS = " -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cmTC_ec981;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		95294292AAA74156A8C58FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "      ";
+				OTHER_LDFLAGS = " -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cmTC_ec981;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EE1295BE2DD54752911C855B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "      -DNDEBUG  ";
+				OTHER_LDFLAGS = " -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cmTC_ec981;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F0946EBBC3AA4EB9A422C6BC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F2DE7946F79D422094BB2E74 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SYMROOT = "/Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp/build";
+			};
+			name = MinSizeRel;
+		};
+		F3F320A9B04B4079816825B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/israel/Documents/udacity/sdc/term2/projects/x-kalman-filter/src/CMakeFiles/CMakeTmp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B50BC84567942D49AFDA344 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B70F6CA473B43DA8D2E141E /* Debug */,
+				F3F320A9B04B4079816825B1 /* Release */,
+				F0946EBBC3AA4EB9A422C6BC /* MinSizeRel */,
+				8FD3430BC3C048B0A4B50C65 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ADDF63DA63D94F3998A2FB17 /* Build configuration list for PBXProject "CMAKE_TRY_COMPILE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EA0899BBDCE4CCFBC8A1F0C /* Debug */,
+				1F5090836BFE42EC840496FD /* Release */,
+				F2DE7946F79D422094BB2E74 /* MinSizeRel */,
+				6379E05478494607A9592973 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FCBF528B9DD444B682296C68 /* Build configuration list for PBXNativeTarget "cmTC_ec981" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95294292AAA74156A8C58FD0 /* Debug */,
+				EE1295BE2DD54752911C855B /* Release */,
+				5F7B62FE3F73473C9BAA9980 /* MinSizeRel */,
+				92D1E0A346BE4150B1917603 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC9AD999C6254238903DB15A /* Project object */;
+}
