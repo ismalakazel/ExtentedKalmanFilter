@@ -26,5 +26,5 @@ In the context of self-driving cars, the Kalman filter is a popular technique us
 
 ## References
 
-[Udacity](https://br.udacity.com)
-[Michel van Biezen - The Kalman Filter](https://www.youtube.com/channel/UCiGxYawhEp4QyFcX0R60YdQ)
+- [Udacity](https://br.udacity.com)
+- [Michel van Biezen - The Kalman Filter](https://www.youtube.com/channel/UCiGxYawhEp4QyFcX0R60YdQ)
